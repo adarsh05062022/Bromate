@@ -1,13 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-       Index by adarsh
+    <title>Bromate Your Browser Mate</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-</body>
+    <!-- Favicons -->
+    <link href="/assets/img/favicon.png" rel="icon" />
+    <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <!-- <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+ -->
+
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    
+
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <audio id="startsound" src="/assets/start.mp3"></audio>
+    <audio
+      id="audio"
+      src="/assets/y2mate.com - Eminem  Lose Yourself HD.mp3"
+    ></audio>
+
+    <!-- ======= Header ======= -->
+
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <h1><a href="index.html">Bromate ✌️</a></h1>
+        </div>
+
+        <!-- .navbar -->
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home🏠</a></li>
+            <li><a class="nav-link scrollto" href="#about">About🅰️</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#services">Implementation🈂️</a>
+            </li>
+            <!-- <li><a class="nav-link scrollto" href="#team">Team🤼</a></li> -->
+            <!-- <li onclick="startSearch()">
+              <a class="getstarted scrollto" href="#"> Start </a>
+            </li> -->
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+      </div>
+    </header>
+
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center"
+          >
+            <h1 data-aos="fade-up">I am your Browser Mate 😎</h1>
+            <h2 data-aos="fade-up" data-aos-delay="400">
+              I will do whatever you ask but in Browser . Just click on the
+              button and start 🙂
+            </h2>
+            <div class="d-flex">
+              <div data-aos="fade-up" data-aos-delay="800">
+                <a
+                  href="#"
+                  id="start-button-change"
+                  class="btn-get-started"
+                  onclick="startSearch()"
+                  >Start Search 🎙️</a
+                >
+              </div>
+              <div data-aos="fade-up" data-aos-delay="800">
+                <a href="#" class="btn-get-started" onclick="stopSearch()"
+                  >Stop Search 🛑</a
+                >
+              </div>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-delay="800"
+              style="margin-top: 20px"
+            >
+              <textarea
+                id="voice-input1"
+                class="voice-input"
+                type="text"
+                placeholder="I am your query🙂"
+                cols="30"
+               
+              ></textarea>
+              <textarea id="voice-input2" class="voice-input" type="text" cols="30" ></textarea>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 order-1 order-lg-2 hero-img"
+            data-aos="fade-left"
+            data-aos-delay="200"
+          >
+            <img
+              src="assets/img/hero-img.png"
+              class="img-fluid animated"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= About Us Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2>About Us</h2>
+          </div>
+
+          <div class="row content">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+              <p>
+                Bromate is sounds like a voice-controlled browser automation
+                tool 😎.
+              </p>
+              <ul>
+                <li>
+                  <i class="ri-check-double-line"></i> This uses natural
+                  language processing and speech recognition technologies to
+                  understand and respond to the user's commands.
+                </li>
+                <li>
+                  <i class="ri-check-double-line"></i> This allow users to
+                  perform various actions on popular websites such as Google and
+                  YouTube using voice commands
+                </li>
+                <li>
+                  <i class="ri-check-double-line"></i>This could include
+                  searching for specific terms, navigating to different pages,
+                  and interacting with different elements on the page
+                </li>
+              </ul>
+            </div>
+            <div
+              class="col-lg-6 pt-4 pt-lg-0"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <p>
+                The voice-controlled browser automation tool would likely also
+                include functionality such as searching Wikipedia for specific
+                terms, retrieving jokes, getting weather information, and even
+                taking screenshots.The tool also be able to provide information
+                such as the current date and time.Additionally, This would allow
+                the user to control music playback using voice commands such as
+                "play music" or "pause the song".
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Us Section -->
+
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2>Implementation</h2>
+            <p>are possible by using these features</p>
+          </div>
+
+          <div class="row">
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+            >
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                <h4 class="title"><a href="#">Voice recognition</a></h4>
+                <p class="description">
+                  in JavaScript using Webkit enables developers to create
+                  interactive, voice-controlled web apps by accessing microphone
+                  and converting speech to text via the Web Speech API.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+            >
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4 class="title"><a href="#">Voice to text</a></h4>
+                <p class="description">
+                  using JavaScript allows developers to convert speech to text
+                  in web applications using the Web Speech API, enabling
+                  interactive, voice-controlled functionality and access to text
+                  input via microphone.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+            >
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon"><i class="bx bx-tachometer"></i></div>
+                <h4 class="title"><a href="#">Search by keyword</a></h4>
+                <p class="description">
+                  allows users to quickly find specific information by inputting
+                  relevant keywords into a search field, providing targeted and
+                  relevant results.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+            >
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon"><i class="bx bx-world"></i></div>
+                <h4 class="title"><a href="#">JavaScript</a></h4>
+                <p class="description">
+                  is a widely-used programming language that allows developers
+                  to create interactive and dynamic websites, web applications
+                  and to automate browser tasks.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Services Section -->
+
+      <!-- ======= Features Section ======= -->
+      <section id="features" class="features">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2>Features</h2>
+            <p>There are some quick links</p>
+          </div>
+
+          <div class="row" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-lg-3 col-md-4">
+              <div class="icon-box">
+                <i class="ri-store-line" style="color: #ffbb2c"></i>
+                <h3 onclick="search('open google')">
+                  <a href="#hero">"Open Google"</a>
+                </h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+              <div class="icon-box">
+                <i class="ri-bar-chart-box-line" style="color: #5578ff"></i>
+                <h3 onclick="search('what is the date')">
+                  <a href="#hero">"What is the date "</a>
+                </h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+              <div class="icon-box">
+                <i class="ri-calendar-todo-line" style="color: #e80368"></i>
+                <h3 onclick="search('narendra modi on youtube')">
+                  <a href="#hero">"Narendra Modi on youtube"</a>
+                </h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+              <div class="icon-box">
+                <i class="ri-paint-brush-line" style="color: #e361ff"></i>
+                <h3 onclick="search('screenshot')">
+                  <a href="#hero">"Take screenshots"</a>
+                </h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box">
+                <i class="ri-database-2-line" style="color: #47aeff"></i>
+                <h3 onclick="search('tell me a joke')">
+                  <a href="#hero">"Tell me a joke"</a>
+                </h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box">
+                <i class="ri-gradienter-line" style="color: #ffa76e"></i>
+                <h3 onclick="search('play music')">
+                  <a href="#hero">"Play Music"</a>
+                </h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box">
+                <i class="ri-file-list-3-line" style="color: #11dbcf"></i>
+                <h3 onclick="search('pause music')">
+                  <a href="#hero">"Pause Music" </a>
+                </h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box">
+                <i class="ri-price-tag-2-line" style="color: #4233ff"></i>
+                <h3 onclick="search('open instagram')">
+                  <a href="#hero">"Open instagram"</a>
+                </h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box">
+                <i class="ri-anchor-line" style="color: #b2904f"></i>
+                <h3 onclick="search('what is gravity on google')">
+                  <a href="#hero">"What is Gravity"</a>
+                </h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box">
+                <i class="ri-disc-line" style="color: #b20969"></i>
+                <h3 onclick="search('open linkedin')">
+                  <a href="#hero">"open Linkedin"</a>
+                </h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box">
+                <i class="ri-base-station-line" style="color: #ff5828"></i>
+                <h3 onclick="search('what is the day')">
+                  <a href="#hero">"What is the day?"</a>
+                </h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 mt-4">
+              <div class="icon-box">
+                <i class="ri-fingerprint-line" style="color: #29cc61"></i>
+                <h3 onclick="search('rest in peace on youtube')">
+                  <a href="#hero">"Rest in peace on youtube"</a>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Features Section -->
+
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-6">
+            <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+              <a href="#intro" class="scrollto">Home</a>
+              <a href="#about" class="scrollto">About</a>
+              <a href="#services" class="scrollto">Implementation</a>
+              <a href="#team" class="scrollto">Team</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/mainFunction.js"></script>
+  </body>
 </html>
