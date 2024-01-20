@@ -18,10 +18,11 @@ var recognition = new webkitSpeechRecognition();
 recognition.lang = "en-US";
 recognition.onresult = function (event) {
   var text = event.results[0][0].transcript;
-  
+
   textareaoutput.value = "";
   text = text.toLowerCase();
   startbutton.innerText = "Start Search 🎙️";
+  console.log(text);
   search(text);
 };
 
@@ -248,12 +249,7 @@ function search(query) {
     }
   }
 
-  if (command.includes("joke")) {
-    let result = getJokes();
-    if (result) {
-      return;
-    }
-  }
+  
 
   // opening websites -----
 
@@ -265,14 +261,17 @@ function search(query) {
     return;
   }
 
-  if(command.includes("hello") || command.includes("hey")){
-    speak("Hello")
+  if (command.includes("hello") || command.includes("hey")) {
+    speak("Greetings! How can I assist you today?");
     return;
   }
-  if((command.includes("how") || command.includes("are"))&& command.includes("you")){
-    speak("I am good I hope you are also good")
+  if (
+    (command.includes("how") || command.includes("are")) &&
+    command.includes("you")
+  ) {
+    speak("As a machine model created in java script, I don't have feelings, but I'm here and ready to help you! How can I assist you today?");
     return;
   }
-
-  speak("Please provide correct information");
+  
+  speak("Sorry to tell you that I am a keyword based assistant, so please provide correct information");
 }
